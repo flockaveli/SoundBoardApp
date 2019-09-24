@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="HJV-CA-6SV">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-OwN-gx-e9D" id="OwN-gx-e9D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jIk-HR-7h0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="sAO-Ve-7Xh">
+                                <rect key="frame" x="0.0" y="39" width="375" height="591"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="53j-g6-MAL" customClass="SoundButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X41-MG-zv9">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES" startsMediaSession="YES" allowsDirectInteraction="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstItem="X41-MG-zv9" firstAttribute="top" secondItem="k7P-gB-f6t" secondAttribute="top" id="7CB-sp-1pB"/>
+                                            <constraint firstItem="X41-MG-zv9" firstAttribute="bottom" secondItem="k7P-gB-f6t" secondAttribute="bottom" id="Y79-3i-LPs"/>
+                                            <constraint firstItem="X41-MG-zv9" firstAttribute="leading" secondItem="53j-g6-MAL" secondAttribute="leading" id="dx1-zy-InQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="X41-MG-zv9" secondAttribute="trailing" id="n64-Je-RnM"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="k7P-gB-f6t"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TBc-ti-Dn8" customClass="SoundButton">
+                                        <rect key="frame" x="0.0" y="149" width="375" height="144"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOm-om-0YE" customClass="SoundButton">
+                                                <rect key="frame" x="-3" y="2" width="375" height="144"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES" allowsDirectInteraction="YES"/>
+                                                </accessibility>
+                                                <viewLayoutGuide key="safeArea" id="M3x-F7-1ak"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES" allowsDirectInteraction="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstItem="FOm-om-0YE" firstAttribute="leading" secondItem="TBc-ti-Dn8" secondAttribute="leading" constant="-3" id="0Gi-Ob-bH5"/>
+                                            <constraint firstAttribute="bottom" secondItem="FOm-om-0YE" secondAttribute="bottom" constant="-2" id="8zZ-Rq-H2E"/>
+                                            <constraint firstItem="FOm-om-0YE" firstAttribute="top" secondItem="TBc-ti-Dn8" secondAttribute="top" constant="2" id="Vds-Tn-4em"/>
+                                            <constraint firstAttribute="trailing" secondItem="FOm-om-0YE" secondAttribute="trailing" constant="3" id="ymb-wF-KGY"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="center" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xy0-pR-SoU" customClass="SoundButton">
+                                        <rect key="frame" x="0.0" y="298" width="375" height="144"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFc-lW-bJP">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                                <viewLayoutGuide key="safeArea" id="RPh-Xd-Bx2"/>
+                                                <inset key="contentEdgeInsets" minX="1" minY="1" maxX="1" maxY="1"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES" allowsDirectInteraction="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstItem="qFc-lW-bJP" firstAttribute="top" secondItem="XDX-Nc-m4m" secondAttribute="top" id="7px-JF-elH"/>
+                                            <constraint firstItem="qFc-lW-bJP" firstAttribute="bottom" secondItem="XDX-Nc-m4m" secondAttribute="bottom" id="Y9P-Du-FIu"/>
+                                            <constraint firstItem="qFc-lW-bJP" firstAttribute="leading" secondItem="Xy0-pR-SoU" secondAttribute="leading" id="f1w-UN-XEs"/>
+                                            <constraint firstAttribute="trailing" secondItem="qFc-lW-bJP" secondAttribute="trailing" id="tsb-32-FMO"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="XDX-Nc-m4m"/>
+                                    </view>
+                                    <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="dUW-5J-EYP" customClass="SoundButton">
+                                        <rect key="frame" x="0.0" y="447" width="375" height="144"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQf-Gt-J5g">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES" image="YES" playsSound="YES" allowsDirectInteraction="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="cQf-Gt-J5g" secondAttribute="bottom" id="I0n-dk-UTW"/>
+                                            <constraint firstAttribute="trailing" secondItem="cQf-Gt-J5g" secondAttribute="trailing" id="KHq-tI-xG3"/>
+                                            <constraint firstItem="cQf-Gt-J5g" firstAttribute="top" secondItem="dUW-5J-EYP" secondAttribute="top" id="Z1P-LL-9Ts"/>
+                                            <constraint firstItem="cQf-Gt-J5g" firstAttribute="leading" secondItem="dUW-5J-EYP" secondAttribute="leading" id="im0-lW-cic"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Xy0-pR-SoU" firstAttribute="top" secondItem="sAO-Ve-7Xh" secondAttribute="top" constant="298" id="1cY-V2-cc2"/>
+                                    <constraint firstItem="dUW-5J-EYP" firstAttribute="top" secondItem="sAO-Ve-7Xh" secondAttribute="top" constant="447" id="K3e-w5-cVe"/>
+                                    <constraint firstItem="TBc-ti-Dn8" firstAttribute="top" secondItem="sAO-Ve-7Xh" secondAttribute="top" constant="149" id="YLJ-Bx-ZDA"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="2Gh-Yq-yul"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sAO-Ve-7Xh" firstAttribute="top" secondItem="b9R-jw-xPZ" secondAttribute="top" constant="19" id="McQ-wE-A8J"/>
+                            <constraint firstAttribute="trailing" secondItem="sAO-Ve-7Xh" secondAttribute="trailing" id="cA0-ln-C9a"/>
+                            <constraint firstItem="sAO-Ve-7Xh" firstAttribute="leading" secondItem="jIk-HR-7h0" secondAttribute="leading" id="diU-wv-7VS"/>
+                            <constraint firstItem="b9R-jw-xPZ" firstAttribute="bottom" secondItem="sAO-Ve-7Xh" secondAttribute="bottom" constant="37" id="o12-uY-GpW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b9R-jw-xPZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="n06-3R-AAf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mSM-4W-8fn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.5999999999999996" y="206.44677661169416"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="O53-oy-eqt">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-sqA-5N-mbd" id="sqA-5N-mbd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GBX-4d-JaM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bkP-6T-ywo">
+                                <rect key="frame" x="67" y="59" width="241" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TF8-8o-LUI">
+                                <rect key="frame" x="126" y="283" width="101" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="fq0-ks-zY0"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="KDX-HP-7pn"/>
+                                <string key="text">😎
+smiling face with sunglasses
+Unicode: U+1F60E, UTF-8: F0 9F 98 8E</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="94"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Felix" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtT-X7-HzX">
+                                <rect key="frame" x="145" y="496" width="63" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="YQW-Ne-AqM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RtT-X7-HzX" firstAttribute="leading" secondItem="vMH-Md-8UQ" secondAttribute="leading" constant="145" id="6J3-ut-DMr"/>
+                            <constraint firstItem="vMH-Md-8UQ" firstAttribute="bottom" secondItem="TF8-8o-LUI" secondAttribute="bottom" constant="309" id="9Az-RA-nXK"/>
+                            <constraint firstItem="bkP-6T-ywo" firstAttribute="centerX" secondItem="GBX-4d-JaM" secondAttribute="centerX" id="G8u-Zg-ZI2"/>
+                            <constraint firstItem="bkP-6T-ywo" firstAttribute="leading" secondItem="vMH-Md-8UQ" secondAttribute="leading" constant="67" id="PEh-ia-TKB"/>
+                            <constraint firstItem="vMH-Md-8UQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TF8-8o-LUI" secondAttribute="trailing" id="Va4-G0-4MW"/>
+                            <constraint firstItem="bkP-6T-ywo" firstAttribute="top" secondItem="vMH-Md-8UQ" secondAttribute="top" constant="39" id="YPV-F9-QxW"/>
+                            <constraint firstItem="vMH-Md-8UQ" firstAttribute="bottom" secondItem="RtT-X7-HzX" secondAttribute="bottom" constant="150" id="fsf-wT-Whd"/>
+                            <constraint firstItem="TF8-8o-LUI" firstAttribute="top" secondItem="bkP-6T-ywo" secondAttribute="bottom" constant="96" id="i9w-z4-PKW"/>
+                            <constraint firstItem="RtT-X7-HzX" firstAttribute="centerX" secondItem="TF8-8o-LUI" secondAttribute="centerX" id="kCN-Yl-fuR"/>
+                            <constraint firstItem="TF8-8o-LUI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vMH-Md-8UQ" secondAttribute="leading" id="vHe-HK-xB6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vMH-Md-8UQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="lUh-h1-qxl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rmZ-Tg-Qgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.5999999999999996" y="-456.52173913043481"/>
+        </scene>
+    </scenes>
+</document>
