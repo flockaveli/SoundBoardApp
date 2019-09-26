@@ -24,6 +24,7 @@
 		06E05D00233CD2ED005AC1E2 /* CASH1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CEF233CD2ED005AC1E2 /* CASH1.mp3 */; };
 		06E05D01233CD2ED005AC1E2 /* GUN6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CF0233CD2ED005AC1E2 /* GUN6.mp3 */; };
 		06E05D02233CD2ED005AC1E2 /* CASH3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CF1233CD2ED005AC1E2 /* CASH3.mp3 */; };
+		06E05D09233CDA91005AC1E2 /* Hanna-barbera-sound-effects.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06E05D08233CDA91005AC1E2 /* Hanna-barbera-sound-effects.jpg */; };
 		06EC9EF5233CA8B7007F4F14 /* Item2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC9EF4233CA8B7007F4F14 /* Item2ViewController.swift */; };
 		06EC9EFA233CB194007F4F14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EC9EF9233CB194007F4F14 /* AVFoundation.framework */; };
 		DCCB8D482328A4920077A9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB8D472328A4920077A9CA /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 		06E05CEF233CD2ED005AC1E2 /* CASH1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH1.mp3; sourceTree = "<group>"; };
 		06E05CF0233CD2ED005AC1E2 /* GUN6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN6.mp3; sourceTree = "<group>"; };
 		06E05CF1233CD2ED005AC1E2 /* CASH3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH3.mp3; sourceTree = "<group>"; };
+		06E05D08233CDA91005AC1E2 /* Hanna-barbera-sound-effects.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hanna-barbera-sound-effects.jpg"; sourceTree = "<group>"; };
 		06EC9EF4233CA8B7007F4F14 /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
 		06EC9EF9233CB194007F4F14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DCCB8D442328A4920077A9CA /* SoundBoardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				06EC9EF4233CA8B7007F4F14 /* Item2ViewController.swift */,
 				DCCB8D4B2328A4920077A9CA /* Main.storyboard */,
 				DCCB8D4E2328A4950077A9CA /* Assets.xcassets */,
+				06E05D08233CDA91005AC1E2 /* Hanna-barbera-sound-effects.jpg */,
 				06E05CE7233CD2EC005AC1E2 /* GUN4.mp3 */,
 				06E05CEA233CD2EC005AC1E2 /* GUN5.mp3 */,
 				06E05CF0233CD2ED005AC1E2 /* GUN6.mp3 */,
@@ -192,6 +195,7 @@
 				06E05D01233CD2ED005AC1E2 /* GUN6.mp3 in Resources */,
 				06E05CFE233CD2ED005AC1E2 /* RUN3.mp3 in Resources */,
 				06E05CF8233CD2ED005AC1E2 /* GUN4.mp3 in Resources */,
+				06E05D09233CDA91005AC1E2 /* Hanna-barbera-sound-effects.jpg in Resources */,
 				DCCB8D522328A4950077A9CA /* LaunchScreen.storyboard in Resources */,
 				DCCB8D4F2328A4950077A9CA /* Assets.xcassets in Resources */,
 				06E05CF5233CD2ED005AC1E2 /* CASH2.mp3 in Resources */,
