@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E05CF2233CD2ED005AC1E2 /* GUN3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE1233CD2EB005AC1E2 /* GUN3.mp3 */; };
+		06E05CF3233CD2ED005AC1E2 /* CASH4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE2233CD2EB005AC1E2 /* CASH4.mp3 */; };
+		06E05CF4233CD2ED005AC1E2 /* HORN1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE3233CD2EB005AC1E2 /* HORN1.mp3 */; };
+		06E05CF5233CD2ED005AC1E2 /* CASH2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE4233CD2EB005AC1E2 /* CASH2.mp3 */; };
+		06E05CF6233CD2ED005AC1E2 /* GUN1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE5233CD2EC005AC1E2 /* GUN1.mp3 */; };
+		06E05CF7233CD2ED005AC1E2 /* HORN2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE6233CD2EC005AC1E2 /* HORN2.mp3 */; };
+		06E05CF8233CD2ED005AC1E2 /* GUN4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE7233CD2EC005AC1E2 /* GUN4.mp3 */; };
+		06E05CF9233CD2ED005AC1E2 /* RUN1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE8233CD2EC005AC1E2 /* RUN1.mp3 */; };
+		06E05CFA233CD2ED005AC1E2 /* GUN2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CE9233CD2EC005AC1E2 /* GUN2.mp3 */; };
+		06E05CFB233CD2ED005AC1E2 /* GUN5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CEA233CD2EC005AC1E2 /* GUN5.mp3 */; };
+		06E05CFC233CD2ED005AC1E2 /* RUN2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CEB233CD2EC005AC1E2 /* RUN2.mp3 */; };
+		06E05CFD233CD2ED005AC1E2 /* CASH5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CEC233CD2EC005AC1E2 /* CASH5.mp3 */; };
+		06E05CFE233CD2ED005AC1E2 /* RUN3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CED233CD2EC005AC1E2 /* RUN3.mp3 */; };
+		06E05CFF233CD2ED005AC1E2 /* RUN4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CEE233CD2ED005AC1E2 /* RUN4.mp3 */; };
+		06E05D00233CD2ED005AC1E2 /* CASH1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CEF233CD2ED005AC1E2 /* CASH1.mp3 */; };
+		06E05D01233CD2ED005AC1E2 /* GUN6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CF0233CD2ED005AC1E2 /* GUN6.mp3 */; };
+		06E05D02233CD2ED005AC1E2 /* CASH3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06E05CF1233CD2ED005AC1E2 /* CASH3.mp3 */; };
+		06EC9EF5233CA8B7007F4F14 /* Item2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC9EF4233CA8B7007F4F14 /* Item2ViewController.swift */; };
+		06EC9EFA233CB194007F4F14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EC9EF9233CB194007F4F14 /* AVFoundation.framework */; };
 		DCCB8D482328A4920077A9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB8D472328A4920077A9CA /* AppDelegate.swift */; };
-		DCCB8D4A2328A4920077A9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB8D492328A4920077A9CA /* ViewController.swift */; };
+		DCCB8D4A2328A4920077A9CA /* Item1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCB8D492328A4920077A9CA /* Item1ViewController.swift */; };
 		DCCB8D4D2328A4920077A9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB8D4B2328A4920077A9CA /* Main.storyboard */; };
 		DCCB8D4F2328A4950077A9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCB8D4E2328A4950077A9CA /* Assets.xcassets */; };
 		DCCB8D522328A4950077A9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB8D502328A4950077A9CA /* LaunchScreen.storyboard */; };
-		DCCB8D5B232ADA310077A9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB8D59232ADA310077A9CA /* Main.storyboard */; };
-		DCCB8D5D23385B960077A9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCB8D5C23385B960077A9CA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06E05CE1233CD2EB005AC1E2 /* GUN3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN3.mp3; sourceTree = "<group>"; };
+		06E05CE2233CD2EB005AC1E2 /* CASH4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH4.mp3; sourceTree = "<group>"; };
+		06E05CE3233CD2EB005AC1E2 /* HORN1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HORN1.mp3; sourceTree = "<group>"; };
+		06E05CE4233CD2EB005AC1E2 /* CASH2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH2.mp3; sourceTree = "<group>"; };
+		06E05CE5233CD2EC005AC1E2 /* GUN1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN1.mp3; sourceTree = "<group>"; };
+		06E05CE6233CD2EC005AC1E2 /* HORN2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HORN2.mp3; sourceTree = "<group>"; };
+		06E05CE7233CD2EC005AC1E2 /* GUN4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN4.mp3; sourceTree = "<group>"; };
+		06E05CE8233CD2EC005AC1E2 /* RUN1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RUN1.mp3; sourceTree = "<group>"; };
+		06E05CE9233CD2EC005AC1E2 /* GUN2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN2.mp3; sourceTree = "<group>"; };
+		06E05CEA233CD2EC005AC1E2 /* GUN5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN5.mp3; sourceTree = "<group>"; };
+		06E05CEB233CD2EC005AC1E2 /* RUN2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RUN2.mp3; sourceTree = "<group>"; };
+		06E05CEC233CD2EC005AC1E2 /* CASH5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH5.mp3; sourceTree = "<group>"; };
+		06E05CED233CD2EC005AC1E2 /* RUN3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RUN3.mp3; sourceTree = "<group>"; };
+		06E05CEE233CD2ED005AC1E2 /* RUN4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RUN4.mp3; sourceTree = "<group>"; };
+		06E05CEF233CD2ED005AC1E2 /* CASH1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH1.mp3; sourceTree = "<group>"; };
+		06E05CF0233CD2ED005AC1E2 /* GUN6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUN6.mp3; sourceTree = "<group>"; };
+		06E05CF1233CD2ED005AC1E2 /* CASH3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH3.mp3; sourceTree = "<group>"; };
+		06EC9EF4233CA8B7007F4F14 /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
+		06EC9EF9233CB194007F4F14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DCCB8D442328A4920077A9CA /* SoundBoardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCB8D472328A4920077A9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCCB8D492328A4920077A9CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCCB8D492328A4920077A9CA /* Item1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item1ViewController.swift; sourceTree = "<group>"; };
 		DCCB8D4C2328A4920077A9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCCB8D4E2328A4950077A9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCB8D512328A4950077A9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCCB8D532328A4950077A9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCCB8D5A232ADA310077A9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SoundBoardApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCCB8D5C23385B960077A9CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,19 +67,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EC9EFA233CB194007F4F14 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06EC9EF8233CB194007F4F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06EC9EF9233CB194007F4F14 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCCB8D3B2328A4920077A9CA = {
 			isa = PBXGroup;
 			children = (
-				DCCB8D5C23385B960077A9CA /* Main.storyboard */,
-				DCCB8D59232ADA310077A9CA /* Main.storyboard */,
 				DCCB8D462328A4920077A9CA /* SoundBoardApp */,
 				DCCB8D452328A4920077A9CA /* Products */,
+				06EC9EF8233CB194007F4F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,9 +103,27 @@
 			isa = PBXGroup;
 			children = (
 				DCCB8D472328A4920077A9CA /* AppDelegate.swift */,
-				DCCB8D492328A4920077A9CA /* ViewController.swift */,
+				DCCB8D492328A4920077A9CA /* Item1ViewController.swift */,
+				06EC9EF4233CA8B7007F4F14 /* Item2ViewController.swift */,
 				DCCB8D4B2328A4920077A9CA /* Main.storyboard */,
 				DCCB8D4E2328A4950077A9CA /* Assets.xcassets */,
+				06E05CE7233CD2EC005AC1E2 /* GUN4.mp3 */,
+				06E05CEA233CD2EC005AC1E2 /* GUN5.mp3 */,
+				06E05CF0233CD2ED005AC1E2 /* GUN6.mp3 */,
+				06E05CEF233CD2ED005AC1E2 /* CASH1.mp3 */,
+				06E05CE4233CD2EB005AC1E2 /* CASH2.mp3 */,
+				06E05CF1233CD2ED005AC1E2 /* CASH3.mp3 */,
+				06E05CE2233CD2EB005AC1E2 /* CASH4.mp3 */,
+				06E05CEC233CD2EC005AC1E2 /* CASH5.mp3 */,
+				06E05CE5233CD2EC005AC1E2 /* GUN1.mp3 */,
+				06E05CE9233CD2EC005AC1E2 /* GUN2.mp3 */,
+				06E05CE1233CD2EB005AC1E2 /* GUN3.mp3 */,
+				06E05CE3233CD2EB005AC1E2 /* HORN1.mp3 */,
+				06E05CE6233CD2EC005AC1E2 /* HORN2.mp3 */,
+				06E05CE8233CD2EC005AC1E2 /* RUN1.mp3 */,
+				06E05CEB233CD2EC005AC1E2 /* RUN2.mp3 */,
+				06E05CED233CD2EC005AC1E2 /* RUN3.mp3 */,
+				06E05CEE233CD2ED005AC1E2 /* RUN4.mp3 */,
 				DCCB8D502328A4950077A9CA /* LaunchScreen.storyboard */,
 				DCCB8D532328A4950077A9CA /* Info.plist */,
 			);
@@ -102,6 +162,7 @@
 				TargetAttributes = {
 					DCCB8D432328A4920077A9CA = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -128,11 +189,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E05D01233CD2ED005AC1E2 /* GUN6.mp3 in Resources */,
+				06E05CFE233CD2ED005AC1E2 /* RUN3.mp3 in Resources */,
+				06E05CF8233CD2ED005AC1E2 /* GUN4.mp3 in Resources */,
 				DCCB8D522328A4950077A9CA /* LaunchScreen.storyboard in Resources */,
-				DCCB8D5D23385B960077A9CA /* Main.storyboard in Resources */,
 				DCCB8D4F2328A4950077A9CA /* Assets.xcassets in Resources */,
+				06E05CF5233CD2ED005AC1E2 /* CASH2.mp3 in Resources */,
+				06E05CFD233CD2ED005AC1E2 /* CASH5.mp3 in Resources */,
+				06E05CF3233CD2ED005AC1E2 /* CASH4.mp3 in Resources */,
+				06E05CF2233CD2ED005AC1E2 /* GUN3.mp3 in Resources */,
+				06E05CF7233CD2ED005AC1E2 /* HORN2.mp3 in Resources */,
 				DCCB8D4D2328A4920077A9CA /* Main.storyboard in Resources */,
-				DCCB8D5B232ADA310077A9CA /* Main.storyboard in Resources */,
+				06E05D00233CD2ED005AC1E2 /* CASH1.mp3 in Resources */,
+				06E05CF6233CD2ED005AC1E2 /* GUN1.mp3 in Resources */,
+				06E05D02233CD2ED005AC1E2 /* CASH3.mp3 in Resources */,
+				06E05CF9233CD2ED005AC1E2 /* RUN1.mp3 in Resources */,
+				06E05CFB233CD2ED005AC1E2 /* GUN5.mp3 in Resources */,
+				06E05CFF233CD2ED005AC1E2 /* RUN4.mp3 in Resources */,
+				06E05CFC233CD2ED005AC1E2 /* RUN2.mp3 in Resources */,
+				06E05CFA233CD2ED005AC1E2 /* GUN2.mp3 in Resources */,
+				06E05CF4233CD2ED005AC1E2 /* HORN1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCCB8D4A2328A4920077A9CA /* ViewController.swift in Sources */,
+				06EC9EF5233CA8B7007F4F14 /* Item2ViewController.swift in Sources */,
+				DCCB8D4A2328A4920077A9CA /* Item1ViewController.swift in Sources */,
 				DCCB8D482328A4920077A9CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,14 +242,6 @@
 				DCCB8D512328A4950077A9CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DCCB8D59232ADA310077A9CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCCB8D5A232ADA310077A9CA /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,7 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nz.ac.unitec.SoundBoardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -323,7 +392,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nz.ac.unitec.SoundBoardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

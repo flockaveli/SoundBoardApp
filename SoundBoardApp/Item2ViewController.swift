@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  Item2ViewController.swift
 //  SoundBoardApp
 //
-//  Created by Felix on 11/09/19.
+//  Created by Felix on 26/09/19.
 //  Copyright © 2019 Felix. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class Item2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,4 +20,3 @@ class ViewController: UIViewController {
 
 
 }
-
